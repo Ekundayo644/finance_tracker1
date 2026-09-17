@@ -1,0 +1,40 @@
+name: finance_tracker
+description: "A personal finance tracker app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.0
+  intl: ^0.20.2
+  fl_chart: ^0.70.2
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/fintrack.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/fintrack.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
