@@ -12,6 +12,8 @@
   <string>6.0</string>
   <key>MinimumOSVersion</key>
 <string>15.0</string>
+<key>MinimumOSVersion</key>
+<string>15.0</string>
 <key>CFBundleName</key>
   <string>App</string>
   <key>CFBundlePackageType</key>
@@ -24,4 +26,5 @@
   <string>1.0</string>
 </dict>
 </plist>
+
 
